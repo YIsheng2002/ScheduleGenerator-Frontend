@@ -1,14 +1,15 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
+import Schedule from '../features/Schedule';
 
-function Schedule() {
+function SchedulePage() {
   return (
     <>
         <Navbar />
-        <div>Schedule</div>
+        <Schedule />
     </>
     
   )
 }
 
-export default Schedule
+export default SchedulePage;

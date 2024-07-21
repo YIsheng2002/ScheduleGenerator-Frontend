@@ -1,0 +1,75 @@
+
+.schedule-page {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .schedule-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .table-container {
+    overflow-x: auto;
+  }
+  
+  .schedule-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+  
+  .schedule-table th,
+  .schedule-table td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  
+  .schedule-table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .schedule-table tr:hover {
+    background-color: #f9f9f9;
+  }
+  
+  .day-column {
+    font-weight: bold;
+    background-color: #f0f0f0;
+  }
+  
+  .time-column {
+    white-space: nowrap;
+    color: #666;
+  }
+  
+  .activity-column {
+    color: #333;
+  }
+  
+  .schedule-note {
+    margin-top: 20px;
+    font-style: italic;
+    color: #666;
+  }
+  
+  @media (max-width: 768px) {
+    .schedule-table {
+      font-size: 14px;
+    }
+  
+    .schedule-table th,
+    .schedule-table td {
+      padding: 8px 10px;
+    }
+  }

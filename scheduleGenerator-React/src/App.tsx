@@ -1,11 +1,11 @@
 import './App.css'
 
-import Schedule from './pages/Schedule'
+import SchedulePage from './pages/SchedulePage'
 
 function App() {
   return (
     <>
-      <Schedule />
+      <SchedulePage />
     </>
   )
 }
